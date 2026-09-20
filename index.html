@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invitación Cumpleaños VIP - Première de Cine & McDonald's</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+font-family: 'Poppins', sans-serif;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: #fff;
+}
+.ticket-container {
+background: #181824;
+border-radius: 20px;
+max-width: 420px;
+width: 100%;
+box-shadow: 0 20px 40px rgba(0,0,0,0.6), 0 0 30px rgba(234, 179, 8, 0.2);
+border: 2px solid #eab308;
+overflow: hidden;
+position: relative;
+transition: transform 0.3s ease;
+}
+.badge-vip {
+background: linear-gradient(90deg, #eab308, #f59e0b);
+color: #000;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+padding: 8px;
+font-size: 0.85rem;
+}
+.header {
+padding: 25px 20px 15px;
+text-align: center;
+background: radial-gradient(circle at top, #2e1065, #181824);
+}
+.header h2 {
+font-family: 'Bebas Neue', sans-serif;
+font-size: 2.8rem;
+letter-spacing: 2px;
+color: #fde047;
+text-shadow: 0 0 10px rgba(253, 224, 71, 0.5);
+line-height: 1;
+margin-bottom: 5px;
+}
+.header p {
+color: #cbd5e1;
+font-size: 0.95rem;
+}
+.movie-box {
+margin: 15px 20px;
+background: linear-gradient(135deg, #312e81 0%, #1e1b4b 100%);
+padding: 16px;
+border-radius: 12px;
+border: 2px solid #a855f7;
+text-align: center;
+}
+.movie-box label {
+display: block;
+font-size: 0.75rem;
+color: #cbd5e1;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 4px;
+}
+.movie-title-es {
+font-size: 1.35rem;
+font-weight: 800;
+color: #f472b6;
+line-height: 1.2;
+}
+.movie-title-en {
+font-size: 0.95rem;
+font-style: italic;
+color: #38bdf8;
+margin-top: 3px;
+}
+.tag-vose {
+display: inline-block;
+background: #ec4899;
+color: white;
+font-size: 0.75rem;
+font-weight: bold;
+padding: 3px 8px;
+border-radius: 4px;
+margin-top: 8px;
+}
+.details {
+padding: 0 20px 20px;
+}
+.detail-item {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-bottom: 12px;
+background: rgba(255,255,255,0.03);
+padding: 10px 14px;
+border-radius: 10px;
+}
+.icon {
+font-size: 1.3rem;
+width: 30px;
+text-align: center;
+}
+.text label {
+display: block;
+font-size: 0.75rem;
+color: #94a3b8;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+.text span {
+font-size: 0.95rem;
+font-weight: 600;
+color: #f1f5f9;
+}
+.badge-provisional {
+display: inline-block;
+background: #f59e0b;
+color: #000;
+font-size: 0.65rem;
+font-weight: 800;
+padding: 1px 5px;
+border-radius: 3px;
+margin-left: 5px;
+text-transform: uppercase;
+}
+.mcdonalds-banner {
+background: #dc2626;
+color: #fef08a;
+margin: 15px 20px;
+padding: 12px;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-weight: 600;
+}
+.mcdonalds-logo {
+font-size: 1.4rem;
+color: #facc15;
+font-weight: 900;
+}
+.btn-confirm {
+display: block;
+width: calc(100% - 40px);
+margin: 0 20px 20px;
+padding: 14px;
+background: linear-gradient(90deg, #f59e0b, #eab308);
+color: #0f172a;
+text-align: center;
+text-decoration: none;
+font-weight: 800;
+border-radius: 12px;
+font-size: 0.95rem;
+border: none;
+cursor: pointer;
+box-shadow: 0 4px 15px rgba(234, 179, 8, 0.4);
+transition: all 0.3s ease;
+}
+
+.btn-confirm:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 20px rgba(234, 179, 8, 0.6);
+}
+
+.btn-confirm:active {
+transform: translateY(0);
+}
+</style>
+</head>
+<body>
+
+<div class="ticket-container">
+<div class="badge-vip">🎟️ Pase de Prensa Exclusivo VIP 🎬</div>
+
+<div class="header">
+<h2>¡CUMPLEAÑOS DE MAIALEN!</h2>
+<p>Estás invitada a un pase privado de cine y merienda</p>
+</div>
+
+<div class="movie-box">
+<label>🎬 Película de la première</label>
+<div class="movie-title-es">El árbol muy muy lejano</div>
+<div class="movie-title-en">(The Magic Faraway Tree)</div>
+<span class="tag-vose">Versión Original Subtitulada (VOSE)</span>
+</div>
+
+<div class="details">
+<div class="detail-item">
+<div class="icon">📅</div>
+<div class="text">
+<label>Fecha</label>
+<span>Domingo, 18 de Octubre</span>
+</div>
+</div>
+
+<div class="detail-item">
+<div class="icon">🕒</div>
+<div class="text">
+<label>Horario</label>
+<span>Tarde (aprox. 16:00 h, pendiente de actualizar tras publicación la cartelera) <span class="badge-provisional">Provisional</span></span>
+</div>
+</div>
+
+<div class="detail-item">
+<div class="icon">📍</div>
+<div class="text">
+<label>Lugar</label>
+<span>Majadahonda</span>
+</div>
+</div>
+</div>
+
+<div class="mcdonalds-banner">
+<span>🍔 Merienda Post-Cine</span>
+<span class="mcdonalds-logo">M</span>
+</div>
+
+<button class="btn-confirm" onclick="abrirWhatsApp()">
+💬 CONFIRMAR EN PRIVADO POR WHATSAPP
+</button>
+</div>
+
+<script>
+function abrirWhatsApp() {
+    window.open('https://wa.me/?text=¡Hola! Confirmo mi asistencia al cumpleaños VIP de Maialen 🎉🎬', '_blank');
+}
+</script>
+
+</body>
+</html>
